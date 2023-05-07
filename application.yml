@@ -7,10 +7,14 @@ eureka:
   instance:
     hostname: localhost
 
+
 microservice:
+  car:
+    endpoints:
+      endpoint: http://CAR-MS/services/car-ms/
+  location:
+    endpoints:
+      endpoint: http://LOCATION-MS/services/location-ms/
   user:
     endpoints:
-      endpoint: http://USER-SERVICE/user/
-  department:
-    endpoints:
-      endpoint: http://DEPARTMENT-SERVICE/department/
+      endpoint: http://USER-MS/services/user-ms/
