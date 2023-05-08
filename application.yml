@@ -11,10 +11,10 @@ eureka:
 microservice:
   car:
     endpoints:
-      endpoint: http://CAR-MS/services/car-ms/
+      endpoint: http://CAR-MS/api/car-ms/
   location:
     endpoints:
-      endpoint: http://LOCATION-MS/services/location-ms/
+      endpoint: http://LOCATION-MS/api/location-ms/
   user:
     endpoints:
-      endpoint: http://USER-MS/services/user-ms/
+      endpoint: http://USER-MS/api/user-ms/
